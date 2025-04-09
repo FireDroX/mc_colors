@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mc-colors/static/css/main.184c47de.css",
-    "main.js": "/mc-colors/static/js/main.1fe3055c.js",
-    "index.html": "/mc-colors/index.html",
-    "main.184c47de.css.map": "/mc-colors/static/css/main.184c47de.css.map",
-    "main.1fe3055c.js.map": "/mc-colors/static/js/main.1fe3055c.js.map"
+    "main.css": "/mc_colors/static/css/main.184c47de.css",
+    "main.js": "/mc_colors/static/js/main.1fe3055c.js",
+    "index.html": "/mc_colors/index.html",
+    "main.184c47de.css.map": "/mc_colors/static/css/main.184c47de.css.map",
+    "main.1fe3055c.js.map": "/mc_colors/static/js/main.1fe3055c.js.map"
   },
   "entrypoints": [
     "static/css/main.184c47de.css",

@@ -1,7 +1,7 @@
 {
   "name": "mc_colors",
   "version": "0.1.0",
-  "homepage": "https://firedrox.github.io/mc-colors/",
+  "homepage": "https://firedrox.github.io/mc_colors/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

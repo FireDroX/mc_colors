@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Minecraft Color Code Generator 🎨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based generator that allows you to visually create styled Minecraft text using **color codes**, **formatting**, and **prefixes** — with live preview and easy copying.
 
-## Available Scripts
+![Preview](./preview.png)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎨 **Pick from Minecraft's 16 classic colors**
+- 🅱️ Bold, *Italic*, ~~Strikethrough~~, and _Underline_ styles
+- 🔠 Split any sentence into styled parts with up to 6 prefixes
+- 🔁 Live preview and after-edit rendering
+- 📋 One-click "Copy Everything" functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ How It Works
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔤 Entering Text
 
-### `npm run build`
+- Type a sentence or word in the **"Enter Text"** box on the left
+- Optionally add extra formatting or words with the **"Add"** button
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🎨 Styling
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Use the **color palette** and **style buttons** below to generate Minecraft formatting codes, which get prepended to the input text:
+- Example: Clicking light red + bold = `&c&l`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📐 Splitting
 
-### `npm run eject`
+In the right panel:
+- Enter the sentence you want to **split** (e.g., `Lorem Ipsum`)
+- Choose how many **prefixes** to apply (up to 6)
+- Each prefix (like `&4&l`) will apply to every nth letter based on the split count
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔠 Color Codes Reference
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Code | Color Name     | Example        |
+|------|----------------|----------------|
+| `&0` | Black          | `&0Text`       |
+| `&1` | Dark Blue      | `&1Text`       |
+| `&2` | Dark Green     | `&2Text`       |
+| `&3` | Dark Aqua      | `&3Text`       |
+| `&4` | Dark Red       | `&4Text`       |
+| `&5` | Dark Purple    | `&5Text`       |
+| `&6` | Gold           | `&6Text`       |
+| `&7` | Gray           | `&7Text`       |
+| `&8` | Dark Gray      | `&8Text`       |
+| `&9` | Blue           | `&9Text`       |
+| `&a` | Green          | `&aText`       |
+| `&b` | Aqua           | `&bText`       |
+| `&c` | Red            | `&cText`       |
+| `&d` | Light Purple   | `&dText`       |
+| `&e` | Yellow         | `&eText`       |
+| `&f` | White          | `&fText`       |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🔤 Format Codes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Code | Effect          | Example         |
+|------|------------------|-----------------|
+| `&l` | **Bold**         | `&lBold`        |
+| `&o` | *Italic*         | `&oItalic`      |
+| `&n` | _Underline_      | `&nUnderline`   |
+| `&m` | ~~Strikethrough~~| `&mStrike`      |
+| `&k` | Obfuscated       | `&kSecret`      |
+| `&r` | Reset formatting | `&rNormal`      |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
